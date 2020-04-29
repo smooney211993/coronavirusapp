@@ -1,0 +1,11 @@
+.chart-container {
+    display: flex;
+    justify-content: center;
+    width : 85%;
+    height : 70%;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius : 25px;
+   
+}

@@ -18,10 +18,11 @@ class App extends React.Component {
   render(){
     const { data } = this.state;
     return (
-      <div className="container">
+      <div className = "app-container"  >
         <Cards data={data}/>
-        <Chart/>
         <CountryPicker/>
+        <Chart/>
+        
       </div>
     );
   }
